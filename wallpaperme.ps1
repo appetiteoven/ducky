@@ -1,5 +1,5 @@
 $wc = New-Object System.Net.WebClient
-$wallpaper_url = "http://ibankcoin.com/chessnwine/files/2013/10/lumberg.jpg"
+$wallpaper_url = "https://raw.github.com/appetiteoven/ducky/master/lumberg.png"
 $dest = [System.IO.Path]::GetTempFileName() + ".jpg"
 
 $wc.DownloadFile($wallpaper_url, $dest)
